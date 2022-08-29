@@ -232,7 +232,6 @@ ul li {
 
 /* Gallery */
 .gallery .container {
-	height: auto;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -314,7 +313,7 @@ ul li {
 .gallery .main:last-child .content {
 	text-align: center;
 	padding-left: 0;
-	padding-top: 400px;
+	padding-top: 35%;
 	width: 50%;
 	height: 90vh;
 	background-size: cover;
@@ -350,6 +349,7 @@ ul li {
 	}
 	.gallery .main:last-child .content {
 		padding-bottom: 40px;
+		padding-top: 85%;
 	}
 	.gallery .content p {
 		margin: auto;
@@ -430,3 +430,16 @@ ul li {
 	margin-top: 5px;
 }
 /* Responsive Testimonials */
+@media screen and (max-width: 786px) {
+	.testimonials {
+		padding: 0;
+		margin-top: 350px;
+		margin-bottom: 50px;
+	}
+	.testimonials .container {
+		flex-direction: column;
+	}
+	.testimonials .person {
+		margin-top: 20px;
+	}
+}
