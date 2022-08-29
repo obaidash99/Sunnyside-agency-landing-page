@@ -51,7 +51,7 @@ ul li {
 	.container {
 		width: 1440px;
 	}
-} 
+}
 /* Header */
 .header {
 	background-color: #3dbeff;
@@ -492,4 +492,13 @@ footer .social {
 	justify-content: space-between;
 	width: 150px;
 	margin: auto;
+}
+.copyright {
+	padding: 2px;
+	text-align: center;
+	color: var(--dark-grayish-blue);
+	background-color: #99d9cb;
+}
+.copyright a {
+	color: var(--dark-desaturated-cyan);
 }
