@@ -380,3 +380,53 @@ ul li {
 		background-image: url('../images/mobile/image-photography.jpg');
 	}
 }
+/* Testimonials */
+.testimonials {
+	padding: 100px;
+	width: 100%;
+	text-align: center;
+}
+.testimonials h1 {
+	color: var(--grayish-blue);
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 7px;
+	margin: auto auto 60px auto;
+}
+.testimonials .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+}
+.testimonials .person .img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+}
+.testimonials .person .img img {
+	width: 80px;
+	border-radius: 50%;
+}
+.testimonials .person > p {
+	font-family: 'Barlow', sans-serif;
+	line-height: var(--line-height);
+	font-size: 18px;
+	color: var(--very-dark-grayish-blue);
+	font-weight: 500;
+	margin: 50px auto;
+	width: 85%;
+}
+.testimonials .person > .info h2 {
+	color: var(--very-dark-desaturated-blue);
+	font-size: 20px;
+}
+.testimonials .person > .info p {
+	font-family: 'Barlow', sans-serif;
+	color: var(--grayish-blue);
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 5px;
+}
+/* Responsive Testimonials */
