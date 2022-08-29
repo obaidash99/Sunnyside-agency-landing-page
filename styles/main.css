@@ -415,7 +415,7 @@ ul li {
 	font-size: 18px;
 	color: var(--very-dark-grayish-blue);
 	font-weight: 500;
-	margin: 50px auto;
+	margin: 30px auto 20px;
 	width: 85%;
 }
 .testimonials .person > .info h2 {
@@ -434,12 +434,12 @@ ul li {
 	.testimonials {
 		padding: 0;
 		margin-top: 350px;
-		margin-bottom: 50px;
+		/* margin-bottom: 50px; */
 	}
 	.testimonials .container {
 		flex-direction: column;
 	}
 	.testimonials .person {
-		margin-top: 20px;
+		margin-bottom: 50px;
 	}
 }
